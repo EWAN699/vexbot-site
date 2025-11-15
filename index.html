@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>VexBot – AI tools for modern businesses</title>
+
+  <link rel="stylesheet" href="style.css" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <!-- ================= NAV ================= -->
+  <header class="navbar">
+    <div class="container nav-inner">
+      <div class="brand">
+        <img src="vexbot-logo.png" alt="VexBot logo" class="brand-logo" />
+        <span class="brand-name">VexBot</span>
+      </div>
+
+      <nav class="nav-links" id="navLinks">
+        <a href="#tools">Tools</a>
+        <a href="#how">How it works</a>
+        <a href="#benefits">Benefits</a>
+        <a href="#pricing">Pricing</a>
+        <a href="#faq">FAQ</a>
+      </nav>
+
+      <button class="btn btn-outline small" data-open-modal="demoModal">Book a demo</button>
+
+      <button class="nav-toggle" id="navToggle" aria-label="Open menu">
+        <span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ================= HERO ================= -->
+  <section class="hero" id="top">
+    <div class="container hero-grid">
+      <div class="hero-copy">
+        <p class="eyebrow">AI that works while you sleep</p>
+        <h1>
+          AI chatbots that let your team
+          <span class="gradient-text">focus on what matters.</span>
+        </h1>
+
+        <p class="hero-sub">
+          VexBot builds custom AI tools for your business – starting with smart chatbots
+          that answer clients instantly, qualify leads and handle repetitive questions
+          so your team doesn’t have to.
+        </p>
+
+        <div class="hero-actions">
+          <button class="btn btn-primary" data-open-modal="demoModal">
+            Get a chatbot for your business
+          </button>
+          <a href="#how" class="btn btn-ghost">See how it works</a>
+        </div>
+
+        <div class="hero-badges">
+          <span>⚡ Live in days, not months</span>
+          <span>🌍 Multilingual support</span>
+          <span>📊 Built for conversions</span>
+        </div>
+      </div>
+
+      <div class="hero-panel">
+        <div class="hero-glow"></div>
+
+        <div class="chat-card">
+          <div class="chat-header">
+            <div class="chat-avatar">
+              <img src="vexbot-logo.png" alt="VexBot" />
+            </div>
+            <div>
+              <div class="chat-title">VexBot Support</div>
+              <div class="chat-sub">Online · replies in seconds</div>
+            </div>
+          </div>
+
+          <div class="chat-body">
+            <div class="msg msg-user">
+              <p>Can your bot answer in English, Hebrew and Arabic?</p>
+              <span class="msg-meta">You · 14:07</span>
+            </div>
+            <div class="msg msg-bot">
+              <p>
+                Yes. We train your chatbot on your content and it automatically replies
+                in the customer’s language while keeping your brand’s tone.
+              </p>
+              <span class="msg-meta">VexBot · 14:07</span>
+            </div>
+
+            <div class="msg msg-user">
+              <p>How long does it take to launch?</p>
+              <span class="msg-meta">You · 14:08</span>
+            </div>
+            <div class="msg msg-bot">
+              <p>
+                Most businesses go live in 3–5 days. We handle setup, training and integration –
+                you just approve the replies.
+              </p>
+              <span class="msg-meta">VexBot · 14:08</span>
+            </div>
+          </div>
+
+          <div class="chat-input">
+            <span class="chat-placeholder">Ask VexBot anything…</span>
+            <span class="chat-send">➤</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= TOOLS ================= -->
+  <section class="section" id="tools">
+    <div class="container">
+      <h2 class="section-title">AI tools built for busy teams</h2>
+      <p class="section-sub">
+        We’re starting with chatbots – but the same engine powers internal tools,
+        automations and smart assistants tailored to your workflow.
+      </p>
+
+      <div class="cards-grid">
+        <article class="card">
+          <h3>AI Chatbots</h3>
+          <p>
+            Custom chatbots on your site, WhatsApp or social channels that answer
+            questions, capture leads and route complex cases to humans.
+          </p>
+          <ul class="card-list">
+            <li>Trained on your site, docs & FAQ</li>
+            <li>Multilingual conversation</li>
+            <li>Custom tone & rules</li>
+          </ul>
+        </article>
+
+        <article class="card">
+          <h3>Knowledge Assistants</h3>
+          <p>
+            Internal bots that help your team find procedures, prices or documents
+            in seconds instead of digging through folders.
+          </p>
+          <ul class="card-list">
+            <li>Connects to Notion, Drive, docs</li>
+            <li>Role-based access</li>
+            <li>Always-on internal support</li>
+          </ul>
+        </article>
+
+        <article class="card">
+          <h3>Automation Flows</h3>
+          <p>
+            Use AI to trigger actions: send emails, create CRM records, book meetings
+            and more – all from one chat.
+          </p>
+          <ul class="card-list">
+            <li>Integrations via API & Zapier</li>
+            <li>Lead routing & notifications</li>
+            <li>Analytics on every conversation</li>
+          </ul>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= HOW IT WORKS ================= -->
+  <section class="section section-alt" id="how">
+    <div class="container">
+      <h2 class="section-title">From idea to live bot in 3 steps</h2>
+
+      <div class="steps">
+        <div class="step">
+          <span class="step-number">1</span>
+          <h3>We learn your business</h3>
+          <p>
+            You share your website, FAQs and typical conversations. We map your flows,
+            objections and the results you want from the bot.
+          </p>
+        </div>
+        <div class="step">
+          <span class="step-number">2</span>
+          <h3>We build & train VexBot</h3>
+          <p>
+            We design the conversation, train the AI on your content and set guardrails
+            so it stays on-brand and safe.
+          </p>
+        </div>
+        <div class="step">
+          <span class="step-number">3</span>
+          <h3>We plug it into your channels</h3>
+          <p>
+            Website widget, landing pages, WhatsApp or internal tools – you choose where
+            VexBot lives, and we connect it.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= BENEFITS ================= -->
+  <section class="section" id="benefits">
+    <div class="container benefits-grid">
+      <div>
+        <h2 class="section-title">Why teams use VexBot</h2>
+        <p class="section-sub">
+          Less “copy-paste replies”. More time spent closing deals and serving the
+          clients that really need you.
+        </p>
+        <ul class="benefits-list">
+          <li><strong>24/7 responses</strong> – clients get answers even when you sleep.</li>
+          <li><strong>Fewer tickets</strong> – repetitive questions are handled by the bot.</li>
+          <li><strong>Better lead quality</strong> – bots qualify and route serious leads.</li>
+          <li><strong>No-code for your team</strong> – we manage the tech, you manage the strategy.</li>
+        </ul>
+      </div>
+
+      <div class="metric-card">
+        <p class="metric-label">Average support time saved</p>
+        <p class="metric-value">+40%</p>
+        <p class="metric-note">after launching an AI chatbot on the main website.</p>
+
+        <p class="metric-label">Automated conversations</p>
+        <p class="metric-value">70–80%</p>
+        <p class="metric-note">of common questions answered without human input.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= PRICING ================= -->
+  <section class="section section-alt" id="pricing">
+    <div class="container">
+      <h2 class="section-title">Simple done-for-you pricing</h2>
+
+      <div class="pricing-card">
+        <h3>Done-for-you setup</h3>
+        <p class="pricing-price">Custom quote</p>
+        <p class="pricing-sub">
+          We design, build and maintain your AI chatbot. You get one partner for
+          strategy, implementation and tweaks.
+        </p>
+        <ul class="pricing-list">
+          <li>Strategy session & requirements mapping</li>
+          <li>Training on your content & workflows</li>
+          <li>Implementation on 1–3 channels</li>
+          <li>Ongoing improvements based on real chats</li>
+        </ul>
+        <button class="btn btn-primary wide" data-open-modal="demoModal">
+          Talk about your use case
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= FAQ ================= -->
+  <section class="section" id="faq">
+    <div class="container">
+      <h2 class="section-title">FAQ</h2>
+
+      <div class="faq">
+        <details>
+          <summary>What do you need from us to start?</summary>
+          <p>
+            Usually just your website, FAQs, and a few examples of good conversations
+            with your clients. From there we handle the setup and training.
+          </p>
+        </details>
+
+        <details>
+          <summary>Which languages can VexBot support?</summary>
+          <p>
+            We can support multiple languages (for example English, Hebrew and Arabic)
+            in a single bot. The AI automatically replies in the language of the user.
+          </p>
+        </details>
+
+        <details>
+          <summary>Do we need a developer on our side?</summary>
+          <p>
+            No. We provide a simple script to place on your site, and we can also work
+            with your developer if you have one. Most clients don’t touch any code.
+          </p>
+        </details>
+
+        <details>
+          <summary>Can we connect VexBot to our CRM or tools?</summary>
+          <p>
+            Yes. We can integrate with your existing tools via API or platforms like
+            Zapier/Make to create leads, send emails or notify your team.
+          </p>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= FOOTER / CTA ================= -->
+  <section class="section footer-cta" id="cta">
+    <div class="container footer-cta-inner">
+      <div>
+        <h2 class="section-title">Ready to see VexBot in action?</h2>
+        <p class="section-sub">
+          Tell us a bit about your business and we’ll show you what an AI chatbot
+          could handle for you in the first week.
+        </p>
+      </div>
+      <button class="btn btn-primary" data-open-modal="demoModal">
+        Book a 20-minute call
+      </button>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <span>© <span id="year"></span> VexBot. All rights reserved.</span>
+      <span class="footer-right">
+        Built with 💙, powered by AI.
+      </span>
+    </div>
+  </footer>
+
+  <!-- ================= MODAL (BOOK DEMO) ================= -->
+  <div class="modal-backdrop" id="demoModal">
+    <div class="modal">
+      <button class="modal-close" data-close-modal>✕</button>
+      <h3>Book a demo</h3>
+      <p>
+        Leave your details and we’ll get back to you with a short call link and a
+        tailored demo idea for your business.
+      </p>
+
+      <form class="modal-form">
+        <label>
+          Name
+          <input type="text" name="name" placeholder="Your name" required />
+        </label>
+        <label>
+          Email
+          <input type="email" name="email" placeholder="you@company.com" required />
+        </label>
+        <label>
+          Business / website
+          <input type="text" name="business" placeholder="example.com" />
+        </label>
+        <label>
+          What would you like the bot to do?
+          <textarea name="message" rows="3" placeholder="Support, leads, internal tool…"></textarea>
+        </label>
+
+        <button type="submit" class="btn btn-primary wide">
+          Send (placeholder – wire to your backend later)
+        </button>
+      </form>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
